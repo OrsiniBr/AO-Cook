@@ -1,0 +1,1039 @@
+{
+  "title": "AO Blockchain Documentation",
+  "baseUrl": "https://cookbook_ao.g8way.io/welcome/index.html",
+  "lastUpdated": "2025-05-18T15:33:05.661Z",
+  "sections": [
+    {
+      "title": "Welcome to ao ​",
+      "url": "https://cookbook_ao.g8way.io/welcome/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "Welcome to ao ​",
+      "url": "https://cookbook_ao.g8way.io/welcome/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "LLMs Documentation ​",
+      "url": "https://cookbook_ao.g8way.io/llms-explanation.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/zh/welcome/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/ja/welcome/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "AO Mainnet ​",
+      "url": "https://cookbook_ao.g8way.io/mainnet/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "AO Core Payment Relays ​",
+      "url": "https://cookbook_ao.g8way.io/mainnet/ao-core-relay.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Get started in 5 minutes ​",
+      "url": "https://cookbook_ao.g8way.io/welcome/getting-started.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Get involved with the ao legacynet ​",
+      "url": "https://cookbook_ao.g8way.io/welcome/legacynet-info/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Tutorials ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Begin: An Interactive Tutorial ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Preparations ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/preparations.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Messaging in ao ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/messaging.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Building a Chatroom in aos ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/chatroom.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Crafting a Token ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/token.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Tokengating the Chatroom ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/begin/tokengating.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Bots and Games ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Let's Play A Game! ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/ao-effect.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Interpreting Announcements ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/announcements.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Fetching Game State ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/game-state.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Strategic Decisions ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/decisions.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Automated Responses ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/attacking.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Bringing it Together ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/bringing-together.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Mechanics of the Arena ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/arena-mechanics.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Expanding the Arena ​",
+      "url": "https://cookbook_ao.g8way.io/tutorials/bots-and-games/build-game.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Guides ​",
+      "url": "https://cookbook_ao.g8way.io/guides/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "aos: AO Operating System ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/intro.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Installing aos ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/installing.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "CLI ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/cli.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Customizing the Prompt in aos ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/prompt.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Load Lua Files with .load <filename> ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/load.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Creating a Pingpong Process in aos ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/pingpong.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Editor setup ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/editor.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Understanding the Inbox ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/inbox-and-handlers.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Troubleshooting using ao.link ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/troubleshooting.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "FAQ ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/faq.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Building a Token in ao ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/token.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Blueprints ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Chatroom Blueprint ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/chatroom.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "CRED Utils Blueprint ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/cred-utils.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Staking Blueprint ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/staking.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Token Blueprint ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/token.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Voting Blueprint ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/blueprints/voting.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Modules ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "JSON ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/json.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "ao ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/ao.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "crypto ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/crypto.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Base64 ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/base64.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Pretty ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/pretty.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Utils ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aos/modules/utils.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "aoconnect ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/aoconnect.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Installing ao connect ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/installing-connect.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Connecting to specific ao nodes ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/connecting.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Sending a Message to a Process ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/sending-messages.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Reading results from an ao Process ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/reading-results.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Spawning a Process ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/spawning-processes.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Calling DryRun ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/calling-dryrun.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Monitoring Cron ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/monitoring-cron.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Sending an Assignment to a Process ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/assign-data.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "DataItem Signers ​",
+      "url": "https://cookbook_ao.g8way.io/guides/aoconnect/signers.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "AO Dev-Cli 0.1 ​",
+      "url": "https://cookbook_ao.g8way.io/guides/dev-cli/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Getting started with SQLite ​",
+      "url": "https://cookbook_ao.g8way.io/guides/snacks/sqlite.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Using WeaveDrive ​",
+      "url": "https://cookbook_ao.g8way.io/guides/snacks/weavedrive.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "0rbit 💫 ​",
+      "url": "https://cookbook_ao.g8way.io/guides/snacks/0rbit/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "First GET Request ​",
+      "url": "https://cookbook_ao.g8way.io/guides/snacks/0rbit/get-request.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "First POST Request ​",
+      "url": "https://cookbook_ao.g8way.io/guides/snacks/0rbit/post-request.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Concepts ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "How ao messaging works ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/how-it-works.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Processes ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/processes.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Messages ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/messages.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Eval ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/eval.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Units ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/units.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "ao Specs ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/specs.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "aos Brief Tour ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/tour.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "A whistle stop tour of Lua. ​",
+      "url": "https://cookbook_ao.g8way.io/concepts/lua.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "References ​",
+      "url": "https://cookbook_ao.g8way.io/references/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Meet Lua ​",
+      "url": "https://cookbook_ao.g8way.io/references/lua.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Meet Web Assembly ​",
+      "url": "https://cookbook_ao.g8way.io/references/wasm.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Lua Optimization Guide for AO Platform ​",
+      "url": "https://cookbook_ao.g8way.io/references/lua-optimization.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "ao Module ​",
+      "url": "https://cookbook_ao.g8way.io/references/ao.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Messaging Patterns in ao ​",
+      "url": "https://cookbook_ao.g8way.io/references/messaging.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Handlers (Version 0.0.5) ​",
+      "url": "https://cookbook_ao.g8way.io/references/handlers.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "ao Token and Subledger Specification ​",
+      "url": "https://cookbook_ao.g8way.io/references/token.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Accessing Data from Arweave with ao ​",
+      "url": "https://cookbook_ao.g8way.io/references/data.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Cron Messages ​",
+      "url": "https://cookbook_ao.g8way.io/references/cron.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Editor setup ​",
+      "url": "https://cookbook_ao.g8way.io/references/editor-setup.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "BetterIDEa ​",
+      "url": "https://cookbook_ao.g8way.io/references/betteridea/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Community Resources ​",
+      "url": "https://cookbook_ao.g8way.io/references/community.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/references/glossary.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Release Notes ​",
+      "url": "https://cookbook_ao.g8way.io/releasenotes/index.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/tutorials/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/guides/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/concepts/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "",
+      "url": "https://cookbook_ao.g8way.io/references/",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "title": "Get started in 5 minutes ​",
+      "url": "https://cookbook_ao.g8way.io/welcome/getting-started.html",
+      "content": [
+        {
+          "type": "unordered-list",
+          "items": []
+        }
+      ],
+      "subsections": []
+    }
+  ]
+}
