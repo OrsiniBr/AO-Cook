@@ -2,6 +2,135 @@
   "title": "AO Blockchain Documentation",
   "baseUrl": "https://cookbook_ao.g8way.io/welcome/index.html",
   "lastUpdated": "2025-05-18T15:33:05.661Z",
+  "concepts": {
+    "ao_mainnet": {
+      "title": "AO Mainnet",
+      "description": "AO Mainnet is the primary network for the AO blockchain, providing a decentralized computing platform with native token support and smart contract capabilities.",
+      "details": "The AO Mainnet is designed to be a highly scalable and efficient blockchain network that supports complex computations and smart contracts. It uses a unique consensus mechanism and provides native support for tokenization and cross-chain interactions.",
+      "key_features": [
+        "Native token support",
+        "Smart contract capabilities",
+        "Cross-chain interactions",
+        "Efficient consensus mechanism"
+      ],
+      "best_practices": [
+        "Always validate message signatures",
+        "Use proper error handling in handlers",
+        "Implement rate limiting for resource-intensive operations",
+        "Follow token standards for compatibility"
+      ],
+      "common_pitfalls": [
+        "Not checking message authenticity",
+        "Improper error handling in handlers",
+        "Resource exhaustion in loops",
+        "Incorrect token implementation"
+      ]
+    },
+    "messaging": {
+      "title": "Messaging in AO",
+      "description": "AO's messaging system allows processes to communicate asynchronously across the network.",
+      "details": "Messages in AO are the primary means of communication between processes. They are asynchronous, reliable, and can carry both data and tokens. Each message has a specific format and can trigger handlers in receiving processes.",
+      "message_types": {
+        "standard": "Basic message for process communication",
+        "token_transfer": "Messages carrying token transfers",
+        "data_assignment": "Messages for assigning data to processes",
+        "system": "Internal system messages"
+      },
+      "message_format": {
+        "From": "Sender process ID",
+        "Target": "Recipient process ID",
+        "Data": "Message payload",
+        "Tags": "Optional metadata",
+        "Value": "Optional token transfer amount"
+      },
+      "best_practices": [
+        "Always validate message source",
+        "Include proper error handling",
+        "Use appropriate message types",
+        "Implement message acknowledgment"
+      ]
+    },
+    "processes": {
+      "title": "AO Processes",
+      "description": "Processes are the fundamental computational units in AO, capable of executing code and handling messages.",
+      "details": "Each process in AO is a self-contained unit that can execute code, maintain state, and communicate with other processes. Processes are identified by unique IDs and can own tokens, handle messages, and store data.",
+      "lifecycle": {
+        "creation": "Process spawning and initialization",
+        "execution": "Message handling and state management",
+        "termination": "Process cleanup and state finalization"
+      },
+      "features": [
+        "Unique process ID",
+        "Message handling capability",
+        "State management",
+        "Token ownership",
+        "Data storage"
+      ]
+    },
+    "aos": {
+      "title": "AO Operating System (aos)",
+      "description": "aos is the operating system layer of AO, providing a runtime environment for processes.",
+      "details": "aos provides a Lua-based environment for executing processes, handling messages, and managing system resources. It includes built-in modules for common operations and supports custom module development.",
+      "components": {
+        "runtime": "Lua-based execution environment",
+        "modules": "Built-in and custom functionality",
+        "handlers": "Message processing system",
+        "memory": "State management system"
+      }
+    }
+  },
+  "examples": {
+    "token": {
+      "basic": {
+        "title": "Simple Token Creation",
+        "code": "// Create a basic token\nMessage.process({\n  Action: \"Create\",\n  Name: \"MyToken\",\n  Symbol: \"MTK\",\n  Supply: 1000000\n});",
+        "explanation": "This example shows how to create a basic token with a name, symbol, and initial supply.",
+        "expected_output": "Token created successfully with ID: {token_id}",
+        "error_handling": "Handles supply validation and name uniqueness"
+      },
+      "intermediate": {
+        "title": "Token with Transfer Functionality",
+        "code": "// Token with transfer function\nHandlers.add(\"transfer\", (msg) => {\n  if (msg.Value && msg.Target) {\n    Token.transfer(msg.Target, msg.Value);\n    return \"Transfer successful\";\n  }\n  return \"Invalid transfer request\";\n});",
+        "explanation": "Implements a transfer handler for moving tokens between processes",
+        "validation": [
+          "Checks for valid target address",
+          "Validates transfer amount",
+          "Verifies sender balance"
+        ]
+      },
+      "advanced": {
+        "title": "Token with Advanced Features",
+        "code": "// Advanced token implementation\nHandlers.add(\"mint\", (msg) => {\n  if (!isAuthorized(msg.From)) return \"Unauthorized\";\n  if (msg.Data.amount <= 0) return \"Invalid amount\";\n  \n  const newSupply = Token.totalSupply + msg.Data.amount;\n  if (newSupply > Token.maxSupply) return \"Exceeds max supply\";\n  \n  Token.mint(msg.Data.amount);\n  emit(\"Mint\", { amount: msg.Data.amount, to: msg.From });\n  return \"Tokens minted successfully\";\n});",
+        "features": [
+          "Authorization checks",
+          "Supply management",
+          "Event emission",
+          "Error handling"
+        ]
+      }
+    },
+    "chatroom": {
+      "basic": {
+        "title": "Simple Chatroom",
+        "code": "// Basic chatroom implementation\nHandlers.add(\"message\", (msg) => {\n  if (msg.Data.text) {\n    Memory.set(\"messages\", [...Memory.get(\"messages\"), {\n      sender: msg.From,\n      text: msg.Data.text,\n      timestamp: Date.now()\n    }]);\n    return \"Message received\";\n  }\n});",
+        "features": [
+          "Message storage",
+          "Sender tracking",
+          "Timestamp recording"
+        ]
+      },
+      "advanced": {
+        "title": "Advanced Chatroom",
+        "code": "// Advanced chatroom with moderation and encryption\nconst moderators = new Set(['mod1', 'mod2']);\n\nHandlers.add(\"message\", (msg) => {\n  if (!msg.Data.text) return \"Empty message\";\n  \n  const encrypted = crypto.encrypt(msg.Data.text);\n  const message = {\n    id: generateId(),\n    sender: msg.From,\n    content: encrypted,\n    timestamp: Date.now()\n  };\n\n  if (moderators.has(msg.From)) {\n    message.isPinned = msg.Data.pin || false;\n  }\n\n  Memory.set(\"messages\", [...Memory.get(\"messages\"), message]);\n  emit(\"NewMessage\", { id: message.id });\n  return \"Message processed\";\n});",
+        "features": [
+          "Message encryption",
+          "Moderation support",
+          "Message pinning",
+          "Event emission"
+        ]
+      }
+    }
+  },
   "sections": [
     {
       "title": "Welcome to ao ​",
