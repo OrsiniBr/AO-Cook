@@ -16,10 +16,6 @@
             "dest": "/dist/server.js"
         },
         {
-            "src": "/assets/(.*)",
-            "dest": "/dist/assets/$1"
-        },
-        {
             "src": "/(.*)",
             "dest": "/dist/index.html"
         }

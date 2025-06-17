@@ -6,8 +6,17 @@ export default defineConfig({
     plugins: [react()],
     build: {
         outDir: 'dist',
-        emptyOutDir: false
+        emptyOutDir: false,
+        assetsDir: 'assets',
+        rollupOptions: {
+            output: {
+                assetFileNames: 'assets/[name]-[hash][extname]',
+                chunkFileNames: 'assets/[name]-[hash].js',
+                entryFileNames: 'assets/[name]-[hash].js'
+            }
+        }
     },
+    base: './',
     server: {
         port: 3000,
         proxy: {
