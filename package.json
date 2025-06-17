@@ -8,7 +8,6 @@
     "build": "bun run tsc && bun run frontend:build",
     "start": "bun run dist/index.js",
     "dev": "bun run tsc && bun run dist/index.js",
-    "server:dev": "bun run tsc && bun run dist/server.js",
     "frontend:dev": "bunx --bun vite",
     "frontend:build": "bun run tsc && bunx --bun vite build",
     "frontend:preview": "bunx --bun vite preview",
