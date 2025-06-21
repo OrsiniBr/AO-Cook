@@ -11,7 +11,8 @@
     "frontend:dev": "bunx --bun vite",
     "frontend:build": "bun run tsc && bunx --bun vite build",
     "frontend:preview": "bunx --bun vite preview",
-    "vercel-build": "bun run tsc && bun run frontend:build"
+    "vercel-build": "bun run tsc && bun run frontend:build",
+    "server:dev": "bun run api/standalone-server.js"
   },
   "keywords": [],
   "author": "",
